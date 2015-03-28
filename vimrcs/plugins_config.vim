@@ -105,6 +105,14 @@ let g:airline_theme="luna"
 let g:airline_powerline_fonts = 1
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => vim-latex
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:Tex_DefaultTargetFormat = 'pdf'
+let g:Tex_CompileRule_pdf = 'pdflatex -interaction=nonstopmode $*'
+let g:Tex_MultipleCompileFormats = 'pdf'
+let g:Tex_ViewRule_pdf = 'open -a preview'
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Vimroom
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:goyo_width=100
@@ -117,3 +125,7 @@ nnoremap <silent> <leader>z :Goyo<cr>
 " => Syntastic (syntax checker)
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:syntastic_python_checkers=['pyflakes']
+"let g:syntastic_always_populate_loc_list = 1
+"let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
