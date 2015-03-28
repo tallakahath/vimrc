@@ -1,4 +1,10 @@
 """"""""""""""""""""""""""""""
+" => VASP section
+""""""""""""""""""""""""""""""
+au BufNewFile,BufRead INCAR set ft=fortran
+
+
+""""""""""""""""""""""""""""""
 " => Python section
 """"""""""""""""""""""""""""""
 let python_highlight_all = 1
