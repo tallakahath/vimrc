@@ -110,7 +110,9 @@ let g:airline_powerline_fonts = 1
 let g:Tex_DefaultTargetFormat = 'pdf'
 let g:Tex_CompileRule_pdf = 'pdflatex -interaction=nonstopmode $*'
 let g:Tex_MultipleCompileFormats = 'pdf'
-let g:Tex_ViewRule_pdf = 'open -a preview'
+" let g:Tex_ViewRule_pdf = 'open -a preview'
+let g:Tex_ViewRule_pdf = 'evince'
+
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Vimroom
