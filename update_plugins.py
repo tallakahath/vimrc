@@ -31,6 +31,7 @@ vim-expand-region https://github.com/terryma/vim-expand-region
 vim-fugitive https://github.com/tpope/vim-fugitive
 vim-go https://github.com/fatih/vim-go
 vim-indent-object https://github.com/michaeljsmith/vim-indent-object
+vim-json https://github.com:elzr/vim-json.git
 vim-less https://github.com/groenewege/vim-less
 vim-luna https://github.com/notpratheek/vim-luna
 vim-markdown https://github.com/tpope/vim-markdown
