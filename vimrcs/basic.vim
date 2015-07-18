@@ -50,6 +50,9 @@ set history=700
 filetype plugin on
 filetype indent on
 
+" Default for empty .tex file is LaTeX
+let g:tex_flavor='latex'
+
 " Set to auto read when a file is changed from the outside
 set autoread
 
