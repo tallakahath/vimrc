@@ -110,7 +110,9 @@ let g:airline_powerline_fonts = 1
 let g:Tex_DefaultTargetFormat = 'pdf'
 let g:Tex_CompileRule_pdf = 'pdflatex -interaction=nonstopmode $*'
 let g:Tex_MultipleCompileFormats = 'pdf'
-let g:Tex_ViewRule_pdf = 'open -a preview'
+" let g:Tex_ViewRule_pdf = 'open -a preview'
+let g:Tex_ViewRule_pdf = 'evince'
+
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Vimroom
@@ -124,7 +126,8 @@ nnoremap <silent> <leader>z :Goyo<cr>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Syntastic (syntax checker)
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:syntastic_python_checkers=['pyflakes']
+let g:syntastic_python_checkers=['pylint']
+let g:syntastic_python_pylint_post_args='--extension-pkg-whitelist=numpy'
 "let g:syntastic_always_populate_loc_list = 1
 "let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1

@@ -11,34 +11,37 @@ PLUGINS = """
 ack.vim https://github.com/mileszs/ack.vim
 bufexplorer https://github.com/corntrace/bufexplorer
 ctrlp.vim https://github.com/kien/ctrlp.vim
+goyo.vim https://github.com/junegunn/goyo.vim
 mayansmoke https://github.com/vim-scripts/mayansmoke
 nerdtree https://github.com/scrooloose/nerdtree
 nginx.vim https://github.com/vim-scripts/nginx.vim
 open_file_under_cursor.vim https://github.com/amix/open_file_under_cursor.vim
 snipmate-snippets https://github.com/scrooloose/snipmate-snippets
+syntastic https://github.com/scrooloose/syntastic
 taglist.vim https://github.com/vim-scripts/taglist.vim
 tlib https://github.com/vim-scripts/tlib
 vim-addon-mw-utils https://github.com/MarcWeber/vim-addon-mw-utils
+vim-airline https://github.com/bling/vim-airline
+vim-better-whitespace https://github.com/ntpeters/vim-better-whitespace
 vim-bundle-mako https://github.com/sophacles/vim-bundle-mako
 vim-coffee-script https://github.com/kchmck/vim-coffee-script
 vim-colors-solarized https://github.com/altercation/vim-colors-solarized
+vim-commentary https://github.com/tpope/vim-commentary
+vim-expand-region https://github.com/terryma/vim-expand-region
+vim-fugitive https://github.com/tpope/vim-fugitive
+vim-go https://github.com/fatih/vim-go
 vim-indent-object https://github.com/michaeljsmith/vim-indent-object
+vim-json https://github.com:elzr/vim-json.git
 vim-less https://github.com/groenewege/vim-less
+vim-luna https://github.com/notpratheek/vim-luna
 vim-markdown https://github.com/tpope/vim-markdown
+vim-multiple-cursors https://github.com/terryma/vim-multiple-cursors
 vim-pyte https://github.com/therubymug/vim-pyte
+vim-repeat https://github.com/tpope/vim-repeat
 vim-snipmate https://github.com/garbas/vim-snipmate
 vim-snippets https://github.com/honza/vim-snippets
 vim-surround https://github.com/tpope/vim-surround
-vim-expand-region https://github.com/terryma/vim-expand-region
-vim-multiple-cursors https://github.com/terryma/vim-multiple-cursors
-vim-fugitive https://github.com/tpope/vim-fugitive
-vim-airline https://github.com/bling/vim-airline
-goyo.vim https://github.com/junegunn/goyo.vim
 vim-zenroom2 https://github.com/amix/vim-zenroom2
-syntastic https://github.com/scrooloose/syntastic
-vim-repeat https://github.com/tpope/vim-repeat
-vim-commentary https://github.com/tpope/vim-commentary
-vim-go https://github.com/fatih/vim-go
 """.strip()
 
 GITHUB_ZIP = '%s/archive/master.zip'
