@@ -16,6 +16,7 @@ mayansmoke https://github.com/vim-scripts/mayansmoke
 nerdtree https://github.com/scrooloose/nerdtree
 nginx.vim https://github.com/vim-scripts/nginx.vim
 open_file_under_cursor.vim https://github.com/amix/open_file_under_cursor.vim
+rust.vim https://github.com/rust-lang/rust.vim
 snipmate-snippets https://github.com/scrooloose/snipmate-snippets
 syntastic https://github.com/scrooloose/syntastic
 taglist.vim https://github.com/vim-scripts/taglist.vim
@@ -31,7 +32,7 @@ vim-expand-region https://github.com/terryma/vim-expand-region
 vim-fugitive https://github.com/tpope/vim-fugitive
 vim-go https://github.com/fatih/vim-go
 vim-indent-object https://github.com/michaeljsmith/vim-indent-object
-vim-json https://github.com:elzr/vim-json.git
+vim-json https://github.com/elzr/vim-json
 vim-less https://github.com/groenewege/vim-less
 vim-luna https://github.com/notpratheek/vim-luna
 vim-markdown https://github.com/tpope/vim-markdown
