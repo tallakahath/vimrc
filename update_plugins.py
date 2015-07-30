@@ -12,12 +12,16 @@ ack.vim https://github.com/mileszs/ack.vim
 bufexplorer https://github.com/corntrace/bufexplorer
 ctrlp.vim https://github.com/kien/ctrlp.vim
 goyo.vim https://github.com/junegunn/goyo.vim
+jsoncodecs.vim https://github.com/michalliu/jsoncodecs.vim
+jsruntime.vim https://github.com/michalliu/jsruntime.vim
 mayansmoke https://github.com/vim-scripts/mayansmoke
 nerdtree https://github.com/scrooloose/nerdtree
 nginx.vim https://github.com/vim-scripts/nginx.vim
 open_file_under_cursor.vim https://github.com/amix/open_file_under_cursor.vim
 rust.vim https://github.com/rust-lang/rust.vim
+SimplyFold https://github.com/tmhedberg/SimpylFold
 snipmate-snippets https://github.com/scrooloose/snipmate-snippets
+sourcebeautify.vim https://github.com/michalliu/sourcebeautify.vim
 syntastic https://github.com/scrooloose/syntastic
 taglist.vim https://github.com/vim-scripts/taglist.vim
 tlib https://github.com/vim-scripts/tlib
@@ -43,6 +47,7 @@ vim-snipmate https://github.com/garbas/vim-snipmate
 vim-snippets https://github.com/honza/vim-snippets
 vim-surround https://github.com/tpope/vim-surround
 vim-zenroom2 https://github.com/amix/vim-zenroom2
+YouCompleteMe https://github.com/Valloric/YouCompleteMe
 """.strip()
 
 GITHUB_ZIP = '%s/archive/master.zip'
