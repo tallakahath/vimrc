@@ -29,14 +29,14 @@ let MRU_Max_Entries = 400
 map <leader>f :MRU<CR>
 
 
-""""""""""""""""""""""""""""""
-" => YankRing
-""""""""""""""""""""""""""""""
-if has("win16") || has("win32")
-    " Don't do anything
-else
-    let g:yankring_history_dir = '~/.vim_runtime/temp_dirs/'
-endif
+" """"""""""""""""""""""""""""""
+" " => YankRing
+" """"""""""""""""""""""""""""""
+" if has("win16") || has("win32")
+"     " Don't do anything
+" else
+"     let g:yankring_history_dir = '~/.vim_runtime/temp_dirs/'
+" endif
 
 
 """"""""""""""""""""""""""""""
@@ -62,8 +62,10 @@ let g:user_zen_mode='a'
 """"""""""""""""""""""""""""""
 " => snipMate (beside <TAB> support <CTRL-j>)
 """"""""""""""""""""""""""""""
-ino <c-j> <c-r>=snipMate#TriggerSnippet()<cr>
-snor <c-j> <esc>i<right><c-r>=snipMate#TriggerSnippet()<cr>
+" ino <c-j> <c-r>=snipMate#TriggerSnippet()<cr>
+" snor <c-j> <esc>i<right><c-r>=snipMate#TriggerSnippet()<cr>
+imap <C-J> <Plug>snipMateNextOrTrigger
+smap <C-J> <Plug>snipMateNextOrTrigger
 
 
 """"""""""""""""""""""""""""""
@@ -95,7 +97,7 @@ let g:multi_cursor_next_key="\<C-s>"
 " Annotate strings with gettext http://amix.dk/blog/post/19678
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 vmap Si S(i_<esc>f)
-au FileType mako vmap Si S"i${ _(<esc>2f"a) }<esc>
+" au FileType mako vmap Si S"i${ _(<esc>2f"a) }<esc>
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
