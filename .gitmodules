@@ -4,3 +4,6 @@
 [submodule "sources_non_forked/gruvbox"]
 	path = sources_non_forked/gruvbox
 	url = git@github.com:morhetz/gruvbox.git
+[submodule "sources_non_forked/SimpylFold"]
+	path = sources_non_forked/SimpylFold
+	url = git@github.com:tmhedberg/SimpylFold.git
