@@ -169,6 +169,7 @@ so that all users can benefit from them.  People can list their snippet reposito
 * https://github.com/sudar/vim-arduino-snippets (snippets for Arduino files)
 * https://github.com/zedr/zope-snipmate-bundle.git (snippets for Python, TAL and ZCML)
 * https://github.com/bonsaiben/bootstrap-snippets (snippets for Twitter Bootstrap markup, in HTML and Haml)
+* https://github.com/sniphpets (advanced snippets for PHP, Symfony 2/3, Doctrine and etc.)
 
 Installation using VAM: https://github.com/MarcWeber/vim-addon-manager
 
@@ -234,6 +235,7 @@ This list is kept up-to-date on a best effort basis.
 * Python - [honza](http://github.com/honza)
 * Ruby - [taq](http://github.com/taq)
 * Scala - [gorodinskiy](https://github.com/gorodinskiy)
+* Supercollider - [lpil](https://github.com/lpil)
 
 License
 -------

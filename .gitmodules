@@ -7,3 +7,9 @@
 [submodule "sources_non_forked/SimpylFold"]
 	path = sources_non_forked/SimpylFold
 	url = git@github.com:tmhedberg/SimpylFold.git
+[submodule "sources_non_forked/YouCompleteMe"]
+	path = sources_non_forked/YouCompleteMe
+	url = git@github.com:Valloric/YouCompleteMe.git
+[submodule "sources_non_forked/vim-airline-themes"]
+	path = sources_non_forked/vim-airline-themes
+	url = git@github.com:vim-airline/vim-airline-themes.git

@@ -19,7 +19,7 @@ nerdtree https://github.com/scrooloose/nerdtree
 nginx.vim https://github.com/vim-scripts/nginx.vim
 open_file_under_cursor.vim https://github.com/amix/open_file_under_cursor.vim
 rust.vim https://github.com/rust-lang/rust.vim
-SimplyFold https://github.com/tmhedberg/SimpylFold
+SimpylFold https://github.com/tmhedberg/SimpylFold
 snipmate-snippets https://github.com/scrooloose/snipmate-snippets
 sourcebeautify.vim https://github.com/michalliu/sourcebeautify.vim
 syntastic https://github.com/scrooloose/syntastic

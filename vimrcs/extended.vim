@@ -49,6 +49,12 @@ autocmd! bufwritepost vimrc source ~/.vim_runtime/my_configs.vim
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Run a python script 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+map <leader>py :!python %<cr>
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Turn persistent undo on
 "    means that you can undo even when you close a buffer/VIM
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
