@@ -1,3 +1,9 @@
+;;; Un-submoduled ;;;
+; bufexplorer
+; mayansmoke
+; open_file_under_cursor
+;
+;;; Submodules ;;;
 [submodule "sources_non_forked/vim-gitgutter"]
 	path = sources_non_forked/vim-gitgutter
 	url = git://github.com/airblade/vim-gitgutter.git
@@ -19,11 +25,18 @@
 [submodule "sources_non_forked/nerdtree"]
 	path = sources_non_forked/nerdtree
     url = https://github.com/scrooloose/nerdtree.git
-
-
-; bufexplorer
-; mayansmoke
-; open_file_under_cursor
 [submodule "sources_non_forked/vim-snippets"]
 	path = sources_non_forked/vim-snippets
 	url = https://github.com/honza/vim-snippets.git
+[submodule "sources_non_forked/sourcebeautify.vim"]
+	path = sources_non_forked/sourcebeautify.vim
+	url = https://github.com/michalliu/sourcebeautify.vim.git
+[submodule "sources_non_forked/syntastic"]
+	path = sources_non_forked/syntastic
+	url = https://github.com/vim-syntastic/syntastic.git
+[submodule "sources_non_forked/vim-addon-mw-utils"]
+	path = sources_non_forked/vim-addon-mw-utils
+	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
+[submodule "sources_non_forked/vim-airline"]
+	path = sources_non_forked/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
