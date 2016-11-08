@@ -23,3 +23,7 @@
 
 ; bufexplorer
 ; mayansmoke
+; open_file_under_cursor
+[submodule "sources_non_forked/vim-snippets"]
+	path = sources_non_forked/vim-snippets
+	url = https://github.com/honza/vim-snippets.git
