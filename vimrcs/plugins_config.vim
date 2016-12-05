@@ -134,3 +134,9 @@ let g:syntastic_python_pylint_post_args='--extension-pkg-whitelist=numpy'
 "let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => vim-taglist 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+nnoremap <silent> <leader>tt :TlistToggle<cr>
