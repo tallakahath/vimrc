@@ -26,49 +26,49 @@
 	url = git@github.com:vim-airline/vim-airline-themes.git
 [submodule "sources_non_forked/goyo.vim"]
 	path = sources_non_forked/goyo.vim
-    url = https://github.com/junegunn/goyo.vim.git
+    url = git@github.com:junegunn/goyo.vim.git
 [submodule "sources_non_forked/nerdtree"]
 	path = sources_non_forked/nerdtree
-    url = https://github.com/scrooloose/nerdtree.git
+    url = git@github.com:scrooloose/nerdtree.git
 [submodule "sources_non_forked/vim-snippets"]
 	path = sources_non_forked/vim-snippets
-	url = https://github.com/honza/vim-snippets.git
+	url = git@github.com:honza/vim-snippets.git
 [submodule "sources_non_forked/sourcebeautify.vim"]
 	path = sources_non_forked/sourcebeautify.vim
-	url = https://github.com/michalliu/sourcebeautify.vim.git
+	url = git@github.com:michalliu/sourcebeautify.vim.git
 [submodule "sources_non_forked/syntastic"]
 	path = sources_non_forked/syntastic
-	url = https://github.com/vim-syntastic/syntastic.git
+	url = git@github.com:vim-syntastic/syntastic.git
 [submodule "sources_non_forked/vim-addon-mw-utils"]
 	path = sources_non_forked/vim-addon-mw-utils
-	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
+	url = git@github.com:MarcWeber/vim-addon-mw-utils.git
 [submodule "sources_non_forked/vim-airline"]
 	path = sources_non_forked/vim-airline
-	url = https://github.com/vim-airline/vim-airline.git
+	url = git@github.com:vim-airline/vim-airline.git
 [submodule "sources_non_forked/vim-better-whitespace"]
 	path = sources_non_forked/vim-better-whitespace
-	url = https://github.com/ntpeters/vim-better-whitespace.git
+	url = git@github.com:ntpeters/vim-better-whitespace.git
 [submodule "sources_non_forked/vim-colors-solarized"]
 	path = sources_non_forked/vim-colors-solarized
-	url = https://github.com/altercation/vim-colors-solarized.git
+	url = git@github.com:altercation/vim-colors-solarized.git
 [submodule "sources_non_forked/vim-commentary"]
 	path = sources_non_forked/vim-commentary
-	url = https://github.com/tpope/vim-commentary.git
+	url = git@github.com:tpope/vim-commentary.git
 [submodule "sources_non_forked/vim-fugitive"]
 	path = sources_non_forked/vim-fugitive
-	url = https://github.com/tpope/vim-fugitive.git
+	url = git@github.com:tpope/vim-fugitive.git
 [submodule "sources_non_forked/vim-json"]
 	path = sources_non_forked/vim-json
-	url = https://github.com/elzr/vim-json.git
+	url = git@github.com:elzr/vim-json.git
 [submodule "sources_non_forked/vim-markdown"]
 	path = sources_non_forked/vim-markdown
-	url = https://github.com/tpope/vim-markdown.git
+	url = git@github.com:tpope/vim-markdown.git
 [submodule "sources_non_forked/vim-snipmate"]
 	path = sources_non_forked/vim-snipmate
-	url = https://github.com/garbas/vim-snipmate.git
+	url = git@github.com:garbas/vim-snipmate.git
 [submodule "sources_non_forked/vim-surround"]
 	path = sources_non_forked/vim-surround
-	url = https://github.com/tpope/vim-surround.git
+	url = git@github.com:tpope/vim-surround.git
 [submodule "sources_non_forked/vim-zenroom2"]
 	path = sources_non_forked/vim-zenroom2
-	url = https://github.com/amix/vim-zenroom2.git
+	url = git@github.com:amix/vim-zenroom2.git
