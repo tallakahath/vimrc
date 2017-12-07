@@ -72,3 +72,6 @@
 [submodule "sources_non_forked/vim-zenroom2"]
 	path = sources_non_forked/vim-zenroom2
 	url = git@github.com:amix/vim-zenroom2.git
+[submodule "sources_non_forked/CCTree"]
+	path = sources_non_forked/CCTree
+	url = git@github.com:hari-rangarajan/CCTree.git
