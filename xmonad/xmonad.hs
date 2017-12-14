@@ -34,12 +34,15 @@ main = do
 
     xmonad $ withUrgencyHook NoUrgencyHook $ defaultConfig
         { manageHook = manageDocks <+> manageHook defaultConfig
-        , layoutHook = avoidStruts  $ myLayout
-        , startupHook = setWMName "LG3D" -- To fix Java apps
+        , layoutHook = avoidStruts $ myLayout
+        , startupHook = do
+            setWMName "LG3D" -- To fix Java apps
+            -- docksStartupHook -- To fix Struts
         , logHook = dynamicLogWithPP xmobarPP
                         { ppOutput = hPutStrLn xmproc
                         , ppTitle = xmobarColor "green" "" . shorten 50
                         }
+        , handleEventHook = docksEventHook
         , modMask = mod4Mask     -- Rebind Mod to the Windows key
         , terminal = "terminator"
         } `additionalKeys`

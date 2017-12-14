@@ -31,18 +31,20 @@ set guioptions-=R
 set guioptions-=l
 set guioptions-=L
 
+"set termguicolors
+
 " Colorscheme
-set background=dark
-colorscheme gruvbox 
-" if has("gui_running")
-"     set background=dark
-"     colorscheme gruvbox 
-" elseif &diff
-"     colorscheme luna 
-" else
+" set background=dark
+ if has("gui_running")
+     set background=dark
+     colorscheme dracula 
+ " elseif &diff
+ "     colorscheme luna 
+ else
+      colorscheme dracula 
 "     colorscheme desert
-"     let g:colors_name="desert"
-" endif
+      " let g:colors_name="dracula"
+ endif
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

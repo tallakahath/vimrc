@@ -1,74 +1,73 @@
-;;; Un-submoduled ;;;
-; bufexplorer
-; mayansmoke
-; open_file_under_cursor
-; taglist.vim
-; tlib
-; vim-indent-object
-; vim-latex
-; vim-repeat
-;
 ;;; Submodules ;;;
-[submodule "sources_non_forked/vim-gitgutter"]
-	path = sources_non_forked/vim-gitgutter
-	url = git://github.com/airblade/vim-gitgutter.git
 [submodule "sources_non_forked/gruvbox"]
 	path = sources_non_forked/gruvbox
 	url = git@github.com:morhetz/gruvbox.git
-[submodule "sources_non_forked/SimpylFold"]
-	path = sources_non_forked/SimpylFold
-	url = git@github.com:tmhedberg/SimpylFold.git
-[submodule "sources_non_forked/YouCompleteMe"]
-	path = sources_non_forked/YouCompleteMe
-	url = git@github.com:Valloric/YouCompleteMe.git
-[submodule "sources_non_forked/vim-airline-themes"]
-	path = sources_non_forked/vim-airline-themes
-	url = git@github.com:vim-airline/vim-airline-themes.git
-[submodule "sources_non_forked/goyo.vim"]
-	path = sources_non_forked/goyo.vim
-    url = git@github.com:junegunn/goyo.vim.git
-[submodule "sources_non_forked/nerdtree"]
-	path = sources_non_forked/nerdtree
-    url = git@github.com:scrooloose/nerdtree.git
-[submodule "sources_non_forked/vim-snippets"]
-	path = sources_non_forked/vim-snippets
-	url = git@github.com:honza/vim-snippets.git
-[submodule "sources_non_forked/sourcebeautify.vim"]
-	path = sources_non_forked/sourcebeautify.vim
-	url = git@github.com:michalliu/sourcebeautify.vim.git
-[submodule "sources_non_forked/syntastic"]
-	path = sources_non_forked/syntastic
-	url = git@github.com:vim-syntastic/syntastic.git
-[submodule "sources_non_forked/vim-addon-mw-utils"]
-	path = sources_non_forked/vim-addon-mw-utils
-	url = git@github.com:MarcWeber/vim-addon-mw-utils.git
+[submodule "sources_non_forked/dracula"]
+	path = sources_non_forked/dracula
+	url = git@github.com:dracula/vim.git
 [submodule "sources_non_forked/vim-airline"]
 	path = sources_non_forked/vim-airline
 	url = git@github.com:vim-airline/vim-airline.git
-[submodule "sources_non_forked/vim-better-whitespace"]
-	path = sources_non_forked/vim-better-whitespace
-	url = git@github.com:ntpeters/vim-better-whitespace.git
-[submodule "sources_non_forked/vim-colors-solarized"]
-	path = sources_non_forked/vim-colors-solarized
-	url = git@github.com:altercation/vim-colors-solarized.git
-[submodule "sources_non_forked/vim-commentary"]
-	path = sources_non_forked/vim-commentary
-	url = git@github.com:tpope/vim-commentary.git
-[submodule "sources_non_forked/vim-fugitive"]
+[submodule "vim-airline-themes"]
+	path = sources_non_forked/vim-airline-themes
+	url = git@github.com:vim-airline/vim-airline-themes.git
+[submodule "vim-fugitive"]
 	path = sources_non_forked/vim-fugitive
 	url = git@github.com:tpope/vim-fugitive.git
-[submodule "sources_non_forked/vim-json"]
+[submodule "syntastic"]
+	path = sources_non_forked/syntastic
+	url = git@github.com:vim-syntastic/syntastic.git
+[submodule "vim-json"]
 	path = sources_non_forked/vim-json
 	url = git@github.com:elzr/vim-json.git
-[submodule "sources_non_forked/vim-markdown"]
-	path = sources_non_forked/vim-markdown
-	url = git@github.com:tpope/vim-markdown.git
-[submodule "sources_non_forked/vim-snipmate"]
-	path = sources_non_forked/vim-snipmate
-	url = git@github.com:garbas/vim-snipmate.git
+[submodule "sources_non_forked/nerdtree"]
+	path = sources_non_forked/nerdtree
+	url = git@github.com:scrooloose/nerdtree.git
 [submodule "sources_non_forked/vim-surround"]
 	path = sources_non_forked/vim-surround
 	url = git@github.com:tpope/vim-surround.git
-[submodule "sources_non_forked/vim-zenroom2"]
-	path = sources_non_forked/vim-zenroom2
-	url = git@github.com:amix/vim-zenroom2.git
+[submodule "sources_non_forked/vim-repeat"]
+	path = sources_non_forked/vim-repeat
+	url = git@github.com:tpope/vim-repeat.git
+[submodule "sources_non_forked/vim-latex"]
+	path = sources_non_forked/vim-latex
+	url = git@github.com:vim-latex/vim-latex.git
+[submodule "sources_non_forked/vim-markdown"]
+	path = sources_non_forked/vim-markdown
+	url = git@github.com:plasticboy/vim-markdown.git
+[submodule "sources_non_forked/tabular"]
+	path = sources_non_forked/tabular
+	url = git@github.com:godlygeek/tabular.git
+[submodule "sources_non_forked/tagbar"]
+	path = sources_non_forked/tagbar
+	url = git@github.com:majutsushi/tagbar.git
+[submodule "sources_non_forked/tlib"]
+	path = sources_non_forked/tlib
+	url = git@github.com:tomtom/tlib_vim.git
+[submodule "sources_non_forked/vim-commentary"]
+	path = sources_non_forked/vim-commentary
+	url = git@github.com:tpope/vim-commentary.git
+[submodule "sources_non_forked/vim-indent-object"]
+	path = sources_non_forked/vim-indent-object
+	url = git@github.com:michaeljsmith/vim-indent-object.git
+[submodule "sources_non_forked/vim-snipmate"]
+	path = sources_non_forked/vim-snipmate
+	url = git@github.com:garbas/vim-snipmate.git
+[submodule "sources_non_forked/vim-addon-mw-utils"]
+	path = sources_non_forked/vim-addon-mw-utils
+	url = git@github.com:MarcWeber/vim-addon-mw-utils.git
+[submodule "sources_non_forked/vim-snippets"]
+	path = sources_non_forked/vim-snippets
+	url = git@github.com:honza/vim-snippets.git
+[submodule "sources_non_forked/mru"]
+	path = sources_non_forked/mru
+	url = git@github.com:vim-scripts/mru.vim.git
+[submodule "sources_non_forked/tabline"]
+	path = sources_non_forked/tabline
+	url = git@github.com:mkitt/tabline.vim.git
+[submodule "SimpylFold"]
+	path = sources_non_forked/SimpylFold
+	url = git@github.com:tmhedberg/SimpylFold.git
+[submodule "vim-better-whitespace"]
+	path = sources_non_forked/vim-better-whitespace
+	url = https://github.com/ntpeters/vim-better-whitespace.git
