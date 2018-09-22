@@ -15,7 +15,7 @@ Config {
     -- layout
     ,sepChar = "%"
     ,alignSep = "}{"
-    ,template = "%StdinReader% }{ %multicpu%   %memory%   %swap%   %enp3s0%   %default:Master%   <fc=#FFFFCC>%date%</fc>   %KSBA%"
+    ,template = "%StdinReader% }{ %multicpu%   %memory%   %swap%   %eth0%   %default:Master%   <fc=#FFFFCC>%date%</fc>   %KNYC%"
 
     -- general behavior
     ,lowerOnStart = False
@@ -26,15 +26,15 @@ Config {
 
     -- plugins
     ,commands = [
-          Run Weather "KSBA"    ["-t","<tempF>F <skyCondition>","-L","64","-H","77","-n","#CEFFAC","-h","#FFB6B0","-l","#96CBFE"] 36000
+          Run Weather "KNYC"    ["-t","<tempF>F <skyCondition>","-L","64","-H","77","-n","#CEFFAC","-h","#FFB6B0","-l","#96CBFE"] 36000
 
-        , Run MultiCpu          ["-t","Cpu: <total0> <total1> <total2> <total3> <total4> <total5> <total6> <total7> ","-L","30","-H","60","-h","#FFB6B0","-l","#CEFFAC","-n","#FFFFCC","-w","3"] 10
+        , Run MultiCpu          ["-t","Cpu: <total0> <total1> <total2> <total3> <total4> <total5> <total6> <total7><total8> <total9> <total10> <total11> ","-L","30","-H","60","-h","#FFB6B0","-l","#CEFFAC","-n","#FFFFCC","-w","3"] 10
 
         , Run Memory            ["-t","Mem: <usedratio>%","-H","8192","-L","4096","-h","#FFB6B0","-l","#CEFFAC","-n","#FFFFCC"] 10
 
         , Run Swap              ["-t","Swap: <usedratio>%","-H","1024","-L","512","-h","#FFB6B0","-l","#CEFFAC","-n","#FFFFCC"] 10
 
-        , Run Network "enp3s0"    ["-t","Net: <rx>, <tx>","-H","200","-L","10","-h","#FFB6B0","-l","#CEFFAC","-n","#FFFFCC"] 10
+        , Run Network "eth0"    ["-t","Net: <rx>, <tx>","-H","200","-L","10","-h","#FFB6B0","-l","#CEFFAC","-n","#FFFFCC"] 10
 
         , Run Volume "default" "Master" [] 10
 

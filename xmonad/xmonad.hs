@@ -2,8 +2,7 @@ import XMonad
 import XMonad.Layout.Spiral
 import XMonad.Layout.Tabbed
 import XMonad.Layout.SimpleFloat
-import XMonad.Hooks.EwmhDesktops
-import XMonad.Hooks.SetWMName
+-- import XMonad.Layout.LayoutHints
 import XMonad.Hooks.DynamicLog
 import XMonad.Hooks.ManageDocks
 import XMonad.Hooks.UrgencyHook
@@ -11,7 +10,7 @@ import XMonad.Util.Run(spawnPipe)
 import XMonad.Util.EZConfig(additionalKeys)
 import System.IO
 
-tabConfig = defaultTheme{
+tabConfig = def{
      activeBorderColor = "#7C7C7C",
      activeTextColor = "#CEFFAC",
      activeColor = "#000000",
@@ -35,9 +34,8 @@ main = do
     xmonad $ withUrgencyHook NoUrgencyHook $ defaultConfig
         { manageHook = manageDocks <+> manageHook defaultConfig
         , layoutHook = avoidStruts $ myLayout
-        , startupHook = do
-            setWMName "LG3D" -- To fix Java apps
-            -- docksStartupHook -- To fix Struts
+        -- , startupHook = do
+        --     docksStartupHook -- To fix Struts
         , logHook = dynamicLogWithPP xmobarPP
                         { ppOutput = hPutStrLn xmproc
                         , ppTitle = xmobarColor "green" "" . shorten 50
@@ -46,10 +44,13 @@ main = do
         , modMask = mod4Mask     -- Rebind Mod to the Windows key
         , terminal = "terminator"
         } `additionalKeys`
-        [ ((mod4Mask .|. shiftMask, xK_z), spawn "gnome-screensaver-command --lock; xset dpms force off")
+        [ ((mod4Mask .|. shiftMask, xK_z), spawn "xset dpms force off; xlock -mode blank")
         , ((controlMask, xK_Print), spawn "sleep 0.2; scrot -s")
         , ((0, xK_Print), spawn "scrot")
-        , ((0, 0x1008FF11), spawn "amixer set Master 2-")
-        , ((0, 0x1008FF13), spawn "amixer set Master 2+")
-        , ((0, 0x1008FF12), spawn "amixer -D pulse set Master toggle")
+        -- , ((0, 0x1008FF11), spawn "amixer -D pulse set Master 2%-")
+        -- , ((0, 0x1008FF13), spawn "amixer -D pulse set Master 2%+")
+        -- , ((0, 0x1008FF12), spawn "amixer -D pulse set Master toggle")
+        , ((mod4Mask, xK_Next), spawn "amixer -D pulse set Master 2%-")
+        , ((mod4Mask, xK_Prior), spawn "amixer -D pulse set Master 2%+")
+        , ((mod4Mask, xK_End), spawn "amixer -D pulse set Master toggle")
         ]
