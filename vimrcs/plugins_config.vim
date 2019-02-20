@@ -49,7 +49,7 @@ let g:syntastic_python_checkers=['pylint', 'flake8']
 "let g:syntastic_python_pylint_post_args='--extension-pkg-whitelist=numpy'
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 2
-let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_open = 0
 let g:syntastic_check_on_wq = 0
 let g:syntastic_rst_checkers = ['Sphinx']
 
@@ -73,3 +73,15 @@ smap <C-J> <Plug>snipMateNextOrTrigger
 """"""""""""""""""""""""""""""
 let MRU_Max_Entries = 400
 map <leader>mm :MRU<CR>
+
+
+"""""""""""
+" => pymode
+"""""""""""
+let pymode_rope_completion=1
+let pymode_rope_complete_on_dot=1
+let pymode_rope_autoimport = 0
+
+""""""""""""
+" => dracula
+""""""""""""

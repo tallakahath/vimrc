@@ -19,6 +19,9 @@ elseif has("unix")
     set gfn=Monospace\ 11
 endif
 
+"Set colors
+"set t_Co=256
+
 " Open MacVim in fullscreen mode
 if has("gui_macvim")
     set fuoptions=maxvert,maxhorz
@@ -32,6 +35,9 @@ set guioptions-=l
 set guioptions-=L
 
 "set termguicolors
+"let g:dracula_italic = 1
+"let g:dracula_bold = 1
+"let g:dracula_colorterm=0
 
 " Colorscheme
 " set background=dark
@@ -45,6 +51,7 @@ set guioptions-=L
 "     colorscheme desert
       " let g:colors_name="dracula"
  endif
+highlight Normal ctermbg=None
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

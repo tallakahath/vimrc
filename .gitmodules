@@ -74,3 +74,6 @@
 [submodule "sources_non_forked/ctags"]
 	path = sources_non_forked/ctags
 	url = git@github.com:universal-ctags/ctags.git
+[submodule "sources_non_forked/YouCompleteMe"]
+	path = sources_non_forked/YouCompleteMe
+	url = https://github.com/Valloric/YouCompleteMe.git

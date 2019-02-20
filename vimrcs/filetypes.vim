@@ -8,21 +8,13 @@ au BufNewFile,BufRead INCAR set ft=fortran
 " => Python section
 """"""""""""""""""""""""""""""
 let python_highlight_all = 1
+let pymode_python='python3'
 au FileType python syn keyword pythonDecorator True None False self
 
 au FileType python set cc=79
 au FileType python highlight ColorColumn ctermbg=9
 
 au FileType python map <buffer> F :set foldmethod=indent<cr>
-
-au FileType python inoremap <buffer> $r return 
-au FileType python inoremap <buffer> $i import 
-au FileType python inoremap <buffer> $p print 
-au FileType python inoremap <buffer> $f #--- PH ----------------------------------------------<esc>FP2xi
-au FileType python map <buffer> <leader>1 /class 
-au FileType python map <buffer> <leader>2 /def 
-au FileType python map <buffer> <leader>C ?class 
-au FileType python map <buffer> <leader>D ?def 
 
 
 """"""""""""""""""""""""""""""
