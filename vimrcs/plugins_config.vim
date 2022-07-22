@@ -8,7 +8,7 @@
 """"""""""""""""""""""""""""""
 " => Load pathogen paths
 """"""""""""""""""""""""""""""
-call pathogen#infect('~/.vim_runtime/sources_forked/{}')
+" call pathogen#infect('~/.vim_runtime/sources_forked/{}')
 call pathogen#infect('~/.vim_runtime/sources_non_forked/{}')
 call pathogen#helptags()
 
@@ -57,16 +57,16 @@ let g:syntastic_rst_checkers = ['Sphinx']
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => tagbar 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-nnoremap <silent> <leader>tt :TagbarToggle<cr>
+" nnoremap <silent> <leader>tt :TagbarToggle<cr>
 
 
 """"""""""""""""""""""""""""""
 " => snipMate (beside <TAB> support <CTRL-j>)
 """"""""""""""""""""""""""""""
-ino <c-j> <c-r>=snipMate#TriggerSnippet()<cr>
-snor <c-j> <esc>i<right><c-r>=snipMate#TriggerSnippet()<cr>
-imap <C-J> <Plug>snipMateNextOrTrigger
-smap <C-J> <Plug>snipMateNextOrTrigger
+" ino <c-j> <c-r>=snipMate#TriggerSnippet()<cr>
+" snor <c-j> <esc>i<right><c-r>=snipMate#TriggerSnippet()<cr>
+" imap <C-J> <Plug>snipMateNextOrTrigger
+" smap <C-J> <Plug>snipMateNextOrTrigger
 
 """"""""""""""""""""""""""""""
 " => MRU plugin
@@ -78,10 +78,17 @@ map <leader>mm :MRU<CR>
 """""""""""
 " => pymode
 """""""""""
-let pymode_rope_completion=1
-let pymode_rope_complete_on_dot=1
-let pymode_rope_autoimport = 0
+" let pymode_rope_completion=1
+" let pymode_rope_complete_on_dot=1
+" let pymode_rope_autoimport = 0
 
 """"""""""""
 " => dracula
 """"""""""""
+
+
+""""""""""""
+" => taglist 
+""""""""""""
+" let g:Tlist_Ctags_CMD='/u/nyc/decolven/.local/bin/ctags'
+" nnoremap <silent> <leader>tt :TlistToggle<cr>

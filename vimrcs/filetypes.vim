@@ -58,3 +58,20 @@ au FileType gitcommit call setpos('.', [0, 1, 1, 0])
 " => JSON section
 """""""""""""""""""""""""""""""
 au FileType json :set foldmethod=syntax
+
+""""""""""""""""
+" => C++ section
+""""""""""""""""
+au FileType cpp :set foldmethod=syntax
+
+
+""""""""""""""""""""""""""""""
+" => FORTRAN section
+""""""""""""""""""""""""""""""
+au FileType fortran :set foldmethod=syntax
+
+""""""""
+" => Ark
+""""""""
+autocmd BufNewFile,BufRead *.ark set filetype=cfg
+au FileType cfg :set foldmethod=syntax
