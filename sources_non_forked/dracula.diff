@@ -1,0 +1,34 @@
+diff --git a/colors/dracula.vim b/colors/dracula.vim
+index dabfe04..fdc3dd8 100644
+--- a/colors/dracula.vim
++++ b/colors/dracula.vim
+@@ -199,6 +199,7 @@ call s:h('DraculaOrangeInverse', s:bg, s:orange)
+ 
+ call s:h('DraculaPink', s:pink)
+ call s:h('DraculaPinkItalic', s:pink, s:none, [s:attrs.italic])
++call s:h('DraculaPinkBold', s:pink, s:none, [s:attrs.bold])
+ 
+ call s:h('DraculaPurple', s:purple)
+ call s:h('DraculaPurpleBold', s:purple, s:none, [s:attrs.bold])
+@@ -308,17 +309,17 @@ hi! link Float Constant
+ hi! link Identifier DraculaFg
+ hi! link Function DraculaGreen
+ 
+-hi! link Statement DraculaPink
+-hi! link Conditional DraculaPink
++hi! link Statement DraculaPinkBold
++hi! link Conditional DraculaPinkBold
+ hi! link Repeat DraculaPink
+ hi! link Label DraculaPink
+-hi! link Operator DraculaPink
++hi! link Operator DraculaPinkBold
+ hi! link Keyword DraculaPink
+ hi! link Exception DraculaPink
+ 
+ hi! link PreProc DraculaPink
+ hi! link Include DraculaPink
+-hi! link Define DraculaPink
++hi! link Define DraculaPurpleBold
+ hi! link Macro DraculaPink
+ hi! link PreCondit DraculaPink
+ hi! link StorageClass DraculaPink
