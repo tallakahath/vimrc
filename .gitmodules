@@ -14,9 +14,6 @@
 [submodule "vim-fugitive"]
 	path = sources_non_forked/vim-fugitive
 	url = git@github.com:tpope/vim-fugitive.git
-[submodule "syntastic"]
-	path = sources_non_forked/syntastic
-	url = git@github.com:vim-syntastic/syntastic.git
 [submodule "vim-json"]
 	path = sources_non_forked/vim-json
 	url = git@github.com:elzr/vim-json.git
@@ -81,3 +78,6 @@
 [submodule "sources_non_forked/FastFold"]
 	path = sources_non_forked/FastFold
 	url = https://github.com/Konfekt/FastFold.git
+[submodule "sources_non_forked/ale"]
+	path = sources_non_forked/ale
+	url = git@github.com:dense-analysis/ale.git

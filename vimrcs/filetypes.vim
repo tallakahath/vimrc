@@ -11,10 +11,13 @@ let python_highlight_all = 1
 let pymode_python='python3'
 au FileType python syn keyword pythonDecorator True None False self
 
-au FileType python set cc=79
+au FileType python set cc=119
 au FileType python highlight ColorColumn ctermbg=9
 
 au FileType python map <buffer> F :set foldmethod=indent<cr>
+
+" au FileType python set makeprg=mypy
+" au FileType python nnoremap <leader>m :silent make %:S <Bar> copen <CR>
 
 
 """"""""""""""""""""""""""""""
